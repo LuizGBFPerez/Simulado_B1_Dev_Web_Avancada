@@ -3,9 +3,9 @@ export class Secretaria
     nome: string;
     RG: number;
   
-    constructor(nome: string, RG: number)
+    constructor(nomeSecretaria: string, RG: number)
     {
-      this.nome = nome;
+      this.nome = nomeSecretaria;
       this.RG = RG;
     }
   
